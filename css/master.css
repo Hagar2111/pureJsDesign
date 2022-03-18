@@ -332,6 +332,11 @@ body{
     position: relative;
     overflow: hidden;
 }
+@media (max-width: 767px){
+    .skills .skill-box .skill-progress{
+        width: 100%;
+    }
+}
 .skills .skill-box .skill-progress span{
     position: absolute;
     left: 0;
@@ -413,15 +418,16 @@ body{
 }
 .popup-box img{
     max-width: 100%;
+    min-width: 300px;
 }
 .close-button{
     position: absolute;
     top: -15px;
     right: -15px;
     background-color: var(--main-color);
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
     text-align: center;
     font-size: 20px;
     color: #FFF;
