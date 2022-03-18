@@ -334,7 +334,7 @@ body{
 }
 @media (max-width: 767px){
     .skills .skill-box .skill-progress{
-        width: 100%;
+        width: 100%
     }
 }
 .skills .skill-box .skill-progress span{
